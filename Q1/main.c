@@ -143,7 +143,8 @@ int main(int argc, char *argv[]) {
 		}
 		
 		if (strncmp(input, "put", 3) == 0) {
-		    put((int) input[4] - '0');
+		   	put((int) input[4] - '0');
+			list(head);
 		}
 		
 		if (strncmp(input, "list", 4) == 0) {
